@@ -13,7 +13,7 @@ public class InputManager : MonoBehaviour
         
         playerInput = new PlayerInput();
         player = playerInput.Player;
-       move = GetComponent<PlayerController>();
+        move = GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
